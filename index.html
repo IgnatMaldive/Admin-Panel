@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+                <i class="uil uil-analytics"></i>
+            </div>
+            <span class="logo_name">Admin Panel</span>
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="#" data-page="dashboard" class="active">
+                    <i class="uil uil-estate"></i>
+                    <span class="link-name">Dashboard</span>
+                </a></li>
+                <li><a href="#" data-page="chat">
+                    <i class="uil uil-chat-bubble-user"></i>
+                    <span class="link-name">Chat</span>
+                </a></li>
+                <li><a href="#" data-page="images">
+                    <i class="uil uil-image"></i>
+                    <span class="link-name">Images</span>
+                </a></li>
+                <li><a href="#" data-page="tasks">
+                    <i class="uil uil-check-circle"></i>
+                    <span class="link-name">Tasks</span>
+                </a></li>
+                <li><a href="#" data-page="playground">
+                    <i class="uil uil-rocket"></i>
+                    <span class="link-name">Playground</span>
+                </a></li>
+                <li><a href="#" data-page="share">
+                    <i class="uil uil-share-alt"></i>
+                    <span class="link-name">Share</span>
+                </a></li>
+            </ul>
+            
+            <ul class="logout-mode">
+                <li><a href="#">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Logout</span>
+                </a></li>
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                        <span class="link-name">Dark Mode</span>
+                    </a>
+                    <div class="mode-toggle">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="profile">
+                <i class="uil uil-user-circle"></i>
+            </div>
+        </div>
+
+        <div class="dash-content">
+            <!-- Content will be loaded dynamically -->
+        </div>
+    </section>
+
+    <script src="/main.js" type="module"></script>
+</body>
+</html>
